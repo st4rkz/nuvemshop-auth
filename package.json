@@ -1,0 +1,14 @@
+{
+  "name": "nuvemshop-auth",
+  "version": "1.0.0",
+  "description": "API para obter access_token da Nuvemshop via OAuth",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "qs": "^6.12.0"
+  }
+}
