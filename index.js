@@ -18,7 +18,7 @@ app.get('/oauth', async (req, res) => {
     client_secret: '4926c9e771a97fdd4a0901a25d7c5137145fafe2b8edbbb2',
     code: code,
     grant_type: 'authorization_code',
-    redirect_uri: 'https://api-node-nuvemshop.onrender.com/oauth'
+    redirect_uri: 'https://nuvemshop-auth.onrender.com/oauth'
   });
 
   try {
